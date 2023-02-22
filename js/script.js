@@ -22,7 +22,7 @@ let userAge = parseInt(prompt("Inserisci la tua età in numeri decimali"));
 
 let userKm = parseInt(prompt("Inserisci il numero dei kilometri che vuoi percorrere in numeri decimali"));
 
-if (isNaN(userAge) || isNaN(userKm)) {
+if (isNaN(userAge) || isNaN(userKm) || userAge <= 0 || userKm <= 0) {
 
     alert("I dati inseriti non sono validi, ricarica la pagina e inserisci i valori corretti");
 
